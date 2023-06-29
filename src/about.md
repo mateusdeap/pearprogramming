@@ -1,10 +1,9 @@
 ---
 layout: page
-title: About
+title: Who Am I
 ---
 
-This is the basic Bridgetown site template. You can find out more info about customizing your Bridgetown site, as well as basic Bridgetown usage documentation at [bridgetownrb.com](https://bridgetownrb.com/)
+I'm a developer based in Fortaleza. I've made my carreer with Rails and a bit of Android so far. But I like programming,
+technology and science in general.
 
-You can find the source code for Bridgetown at GitHub:
-[bridgetownrb](https://github.com/bridgetownrb) /
-[bridgetown](https://github.com/bridgetownrb/bridgetown)
+I'm the happy husband of Beatrice and the proud father of Tiago. And a piano player on the side

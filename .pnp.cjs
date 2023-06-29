@@ -34,7 +34,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-flexbugs-fixes", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:5.0.2"],\
             ["postcss-import", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:14.1.0"],\
             ["postcss-load-config", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:3.1.4"],\
-            ["postcss-preset-env", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:7.8.3"]\
+            ["postcss-preset-env", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:7.8.3"],\
+            ["read-cache", "npm:1.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -936,7 +937,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-flexbugs-fixes", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:5.0.2"],\
             ["postcss-import", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:14.1.0"],\
             ["postcss-load-config", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:3.1.4"],\
-            ["postcss-preset-env", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:7.8.3"]\
+            ["postcss-preset-env", "virtual:c40010d7c14f3511e6f97d09a697ff03ca3fc009374f8ce98c985fd9897cf90dc6d25d5b6e5f21c87ca1f83d9f969bbe5e2622a25b0483fa4c0bf151e9e04e62#npm:7.8.3"],\
+            ["read-cache", "npm:1.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
