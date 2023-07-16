@@ -22,7 +22,7 @@ Well, now I've got the content, and here it is.
 In the end, I picked the one generator that I heard a lot about but that didn't have nearly as many ready to go themes as I had seen with Jekyll or Hugo: Bridgetown.
 
 ### the experience
-Well, II don't think there's much to be said. It's good. It does what I need it to do, it gives me a barebones, no css (or almost no css) and no JS website ready for me to write to.
+Well, I don't think there's much to be said. It's good. It does what I need it to do, it gives me a barebones, no css (or almost no css) and no JS website ready for me to write to.
 
 And, apparently, that's what I needed, because this post is being written and I feel like finally I'm publishing things worth reading. Ate least worth reading to me by my own future self.
 
