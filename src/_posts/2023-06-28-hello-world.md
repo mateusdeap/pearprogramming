@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "hello, world!"
+title:  "Hello, World!"
 date:   2023-06-28 19:45:12 -0300
 categories: updates
 ---

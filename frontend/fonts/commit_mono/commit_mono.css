@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Commit Mono";
+  src:
+    local("CommitMono"),
+    url("./CommitMono-400-Regular.otf") format("opentype"),
+    url("./CommitMono-700-Regular.otf") format("opentype");
+    font-style: normal;
+}

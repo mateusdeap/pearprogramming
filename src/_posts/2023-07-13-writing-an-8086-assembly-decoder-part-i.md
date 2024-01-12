@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "writing an 8086 assembly decoder - part i"
+title:  "Writing an 8086 assembly decoder - Part I"
 date:   2023-07-13 22:38:56 -0300
 categories: ["performance aware programming", "explorations"]
 ---

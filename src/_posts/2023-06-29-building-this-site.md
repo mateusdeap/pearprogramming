@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "building this site"
+title:  "Building this site"
 date:   2023-06-29 14:36:12 -0300
 categories: building
 ---
