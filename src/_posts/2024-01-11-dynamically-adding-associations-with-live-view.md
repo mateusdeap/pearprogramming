@@ -148,8 +148,8 @@ Finally, for this to work we also need to make sure the associated model has the
   end
 ```
 
-And we're done. Check it out:
-![[Screen Recording 2023-11-30 at 6.42.48 AM.mov]]
+And we're done.
+
 ## Conclusion
 
 My experience with nested forms in Rails never was the best one. But I don't want to say it's bad because I used it when I was pretty new to the job and haven't touched it since.
