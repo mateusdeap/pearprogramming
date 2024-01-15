@@ -4,6 +4,9 @@
     {% render "head", metadata: site.metadata, title: resource.data.title %}
   </head>
   <body class="{{ resource.data.layout }} {{ resource.data.page_class }}">
+    <header>
+      <h1>The Pear Programming Blog</h1>
+    </header>
     {% render "navbar", metadata: site.metadata, resource: resource %}
 
     <main>

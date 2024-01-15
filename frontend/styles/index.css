@@ -4,29 +4,105 @@ html {
   font-family: "Univers LT Std", sans-serif;
 }
 
-body {
-  margin: 1rem 20rem 0rem 20rem;
+@media (min-width: 1136px) {
+  body {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+header h1 {
+  font-family: "Teko", "Univers LT Std", sans-serif;
+  font-size: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: color(display-p3 0 .283 .665);
+
+  &:visited {
+    color: color(display-p3 0 .283 .665);
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
 
   a {
+    color: #000;
     text-decoration: none;
-    font-size: 0.9em;
-    border: solid 0.1rem #000;
-    padding: 0.4em 2em 0em 2em;
+    text-align: center;
     box-shadow: 0.15rem 0.15rem #bbb;
+    border: solid 0.05rem #000;
+    padding-top: 0.3rem;
 
     &:visited {
       color: #000;
     }
 
-    &:hover {
+    &:hover, &:active {
       background-color: #000;
       color: #fff;
+      text-decoration: none;
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 0.1rem rgba(0, 0, 0, .2);
+      text-decoration: none;
+      color: #fff;
+      border-color: #000;
+      background: #000;
+      fill: #fff;
     }
   }
 }
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list a {
+  color: #000;
+  padding-top: 0.2em;
+  text-decoration: none;
+  width: 100%;
+
+  &:visited {
+    color: #000;
+  }
+
+  &:hover {
+    background-color: color(display-p3 0 .283 .665);
+    color: #fff;
+  }
+
+  &:active {
+    background-color: #000;
+  }
+}
+
+.list p {
+  margin: 0;
+}
+
