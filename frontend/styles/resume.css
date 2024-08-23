@@ -1,0 +1,37 @@
+:root {
+  --spacing-xs: 0.69rem;
+  --spacing-sm: 0.83rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.2rem;
+  --spacing-xl: 1.44rem;
+  --spacing-2xl: 1.73rem;
+  --spacing-3xl: 2.07rem;
+  --spacing-4xl: 2.49rem;
+  --spacing-5xl: 2.99rem;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+h1 {
+  margin-top: var(--spacing-4xl);
+}
+
+h2 {
+  margin-top: var(--spacing-3xl);
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+h2#senior-software-engineer {
+  text-decoration: none;
+}
+
+h3 {
+  margin-top: var(--spacing-md);
+}
+
+hr {
+  border-color: red;
+}
