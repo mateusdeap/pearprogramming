@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Red Hat Text";
+  src:
+    local("RedHatText"),
+    url("./RedHatText-VariableFont_wght.ttf") format("truetype");
+    font-style: normal;
+}
