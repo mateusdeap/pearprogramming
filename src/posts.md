@@ -4,8 +4,8 @@ title: Posts
 ---
 
 <div class="list">
-{% for post in collections.posts.resources %}
-    <a href="{{ post.relative_url }}">{{ post.data.title }}</a>
-{% endfor %}
+  <% collections.posts.resources.each do |post| %>
+    <a href="<%= post.relative_url %>"><%= post.data.title %></a>
+  <% end %>
 </div>
 
