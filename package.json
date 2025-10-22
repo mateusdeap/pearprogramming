@@ -2,13 +2,14 @@
   "name": "pearprogramming",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "esbuild": "node esbuild.config.js --minify",
     "esbuild-dev": "node esbuild.config.js --watch"
   },
   "devDependencies": {
-    "esbuild": "^0.14.39",
-    "glob": "^8.0.1",
+    "esbuild": "^0.25.11",
+    "glob": "^11.0.3",
     "postcss": "^8.4.12",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^14.1.0",
@@ -17,6 +18,7 @@
     "read-cache": "^1.0.0"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "yarn": "^1.22.22"
   }
 }

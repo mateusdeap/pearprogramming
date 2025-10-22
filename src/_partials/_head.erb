@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<% resource_title = strip_html(title).strip %>
+<title><% if resource_title != "Index" %><%= Bridgetown::Utils.xml_escape(resource_title) %> | <%= Bridgetown::Utils.xml_escape(metadata.title) %><% else %><%= Bridgetown::Utils.xml_escape(metadata.title) %>: <%= Bridgetown::Utils.xml_escape(metadata.tagline) %><% end %></title>
+
+<meta name="description" content="<%= metadata.description %>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/univers-lt-std?styles=21283,21297,21284" rel="stylesheet">
+<link rel="stylesheet" href="<%= asset_path :css %>">
+<script src="<%= asset_path :js %>" defer></script>
+<%= live_reload_dev_js %>
