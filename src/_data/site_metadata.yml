@@ -6,6 +6,11 @@
 
 title: Pear Programming
 tagline: Musing and explorations of a developer
-email: mateusdeap@gmail.com
+email: mateusdeap@protonmail.com
 description: >-
   A blog where I put any experiments and thoughts concerning programming, technology and, maybe, some opinions
+author:
+  twitter: mateusdeap
+twitter:
+  username: mateusdeap
+  card: summary

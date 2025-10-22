@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<% resource_title = strip_html(title).strip %>
-<title><% if resource_title != "Index" %><%= Bridgetown::Utils.xml_escape(resource_title) %> | <%= Bridgetown::Utils.xml_escape(metadata.title) %><% else %><%= Bridgetown::Utils.xml_escape(metadata.title) %>: <%= Bridgetown::Utils.xml_escape(metadata.tagline) %><% end %></title>
+<%= seo %>
+<%= feed_meta %>
 
 <meta name="description" content="<%= metadata.description %>">
 

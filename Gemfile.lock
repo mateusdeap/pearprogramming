@@ -53,12 +53,16 @@ GEM
       thor (~> 1.1)
       tilt (~> 2.0)
       zeitwerk (~> 2.5)
+    bridgetown-feed (4.0.0)
+      bridgetown (>= 1.2.0)
     bridgetown-foundation (2.0.3)
       hash_with_dot_access (~> 2.0)
       inclusive (~> 1.0)
       zeitwerk (~> 2.5)
     bridgetown-paginate (2.0.3)
       bridgetown-core (= 2.0.3)
+    bridgetown-seo-tag (7.0.0)
+      bridgetown (>= 1.3)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.4)
     csv (3.3.5)
@@ -150,6 +154,8 @@ PLATFORMS
 
 DEPENDENCIES
   bridgetown (~> 2.0.0)
+  bridgetown-feed (~> 4.0)
+  bridgetown-seo-tag (~> 7.0)
   puma (~> 6)
 
 BUNDLED WITH
